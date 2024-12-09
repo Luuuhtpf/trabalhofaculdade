@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <!-- Inicio da navegação principal -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <!-- Link para a página principal -->
+            <li><a href="#">Home</a></li>
+            <!-- Link para a seção "Sobre mim" -->
+            <li><a href="#sobre">Sobre mim</a></li>
+            <!-- Link para a seção "Formação" -->
+            <li><a href="#formacao">Formação</a></li>
+            <!-- Link para a seção "Portfólio" -->
+            <li><a href="#projetos">Portfólio</a></li>
+            <!-- Link para a seção "Contato" -->
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <!-- Fim da navegação principal -->
+    
+    <main>
+        <section>
+            <div class="main">
+                <!-- Texto de boas vindas -->
+                <h2>Ola,<br>seja bem vindo!</h2>
+                <!-- Botão que leva à seção de projetos -->
+                <a href="#projetos">
+                    <button class="button">Veja meus projetos</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Inicio da seção "Sobre mim" -->
+
+    <section class="about" id="sobre">
+        <div>
+            <h2>Sobre mim</h2>
+            <!-- Breve descrição pessoal -->
+            <p>Olá, me chamo Luciano tenho 23 anos e sou apaixonado por computador e programação. <br>
+                Sou uma pessoa muito ativa, que esta sempre procurando aprender com os próprios erros para evoluir.</p> <br>
+            <p>Desde os meus 7 anos de idade sempre adorei mexer com programas de computador e sempre fui muito curioso para saber como tudo funcionava nos bastidores.</p> <br>
+            <p>Atualmente estou no primeiro ano da faculdade de analise e desenvolvimento de sistemas e procuro sempre evoluir mais e mais a cada dia</p>
+        </div>
+        <!-- Imagem ilustrtiva -->
+        <img src="/images/pngegg.png" alt="foto ilustrativa">
+    </section>
+
+    <!-- Fim da seção "Sobre mim" -->
+
+    <!-- Inicio da seção "Formação e Habilidades" -->
+
+    <section class="skills" id="formacao">
+
+        <div class="text">
+            <h2>Formação e habilidades</h2>
+            <!-- Introdução a seção -->
+            <p>Conheça um pouco mais sobre minhas habilidades:</p>
+        </div>
+
+            <div class="list-skills">
+                <!-- Lista de habilidades -->
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>HTML básico</li>
+                    <li>CSS básico</li>
+                    <li>JavaScript básico</li>
+                    <li>Python básico</li>
+                </ul>
+
+                <!-- Informação sobre formação acadêmica -->
+                <div class="formacao">
+                    <h2>Formacao</h2>
+                    <ul>
+                        <li>Cursando analise e desenvolvimento de sistemas na uninter</li>
+                    </ul>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Fim da seção "Formação e Habilidades" -->
+
+    <!-- Inicio da seção "Portfólio" -->
+
+    <section class="projects" id="projetos">
+
+        <div>
+            <h2>Projetos</h2>
+            <!-- Introdução à seção de projetos -->
+            <p>Conheça meus ultimos projetos:</p>
+        </div>
+
+        <!-- Imagem e link para os projetos -->
+        <div class="img-link">
+            <a href="/projetos/index.html" target="_blank">
+                <img src="/images/projeto.png" alt="">
+            </a>
+        </div>
+    </section>
+
+    <!-- Fim da seção "Portfólio" -->
+
+    <!-- Inicio da seção "Contato" -->
+
+    <section class="contact" id="contato">
+        <h2>Entre em contato</h2>
+        <!-- Mensagem convidativa para contato -->
+        <p>Gostaria de trabalhar comigo ou ficou com alguma duvida? <br> entre em contato</p>
+        <div>
+            <!-- Formulário de contato -->
+            <form class="form">
+                <!-- Campo para inserir o nome -->
+                <label for="nome"></label>
+                <input type="text" name="nome:" id="Nome" placeholder="Nome *" required> <br><br>
+
+                <!-- Campo para inserir o email -->
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email *" required> <br><br>
+
+                <!-- Campo para inserir uma mensagem -->
+                <label for="mensagem"></label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea> <br>
+
+                <!-- Botão para enviar o formulário -->
+                <input type="submit" value="Enviar" id="button">
+            </form>
+        </div>
+    </section>
+    
+    <!-- Fim da seção "Contato" -->
+
+    <!-- Inicio do rodapé -->
+
+    <footer>
+        <div class="footer">
+            <!-- Direitos autorais -->
+           <p>Todos os direitos reservados - Luciano Aparecido Ferreira Junior</p>
+        </div>
+    </footer>
+    <!-- Fim do rodapé -->
+</body>
+</html>
